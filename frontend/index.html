@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>List Management Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Note to explain why the list takes time to update -->
+  <div class="note">
+    Hi! the Campaign Monitor API is a bit slow, so after adding or removing a subscriber from the list, please wait a few seconds (or even a minute) for the list to be updated! Thanks for your patience, <br><br> Stratos Anthopoulos
+  </div>
+
+  <div class="container">
+    <h1>Margera Subscriber List</h1>
+
+    <!-- Form to Add Subscriber -->
+    <form id="addSubscriberForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <button type="submit">Add Subscriber</button>
+    </form>
+
+    <!-- Subscriber List -->
+    <ul id="subscriberList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
