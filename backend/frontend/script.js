@@ -1,4 +1,6 @@
+// const API_URL = 'http://localhost:3000';
 const API_URL = 'http://localhost:3000';
+
 
 // DOM Elements
 const form = document.getElementById('addSubscriberForm');
