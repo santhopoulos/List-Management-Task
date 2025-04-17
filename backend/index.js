@@ -2,7 +2,7 @@ import express from 'express';
 import axios from 'axios';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import path from 'path';  // <-- Add this line
+import path from 'node:path';  
 import { fileURLToPath } from 'url';
 
 dotenv.config();
